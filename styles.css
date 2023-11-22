@@ -1,0 +1,126 @@
+/* BODY STYLES */
+
+body {
+    /* Background image for the body */
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    /* Font family for the entire page */
+    font-family: sans-serif;
+    /* Padding around the content within the body */
+    padding: 20px;
+}
+
+/* HEADER STYLES */
+
+h1 {
+    /* Font size and spacing for the main heading */
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h2 {
+    /* Font size for subheadings */
+    font-size: 30px;
+}
+
+.established {
+    /* Italics for the established text */
+    font-style: italic;
+}
+
+h1, h2, p {
+    /* Center aligning the text for h1, h2, and p elements */
+    text-align: center;
+}
+
+/* MENU STYLES */
+
+.menu {
+    /* Container for the menu with width, background color, and centering */
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+img {
+    /* Centering images within their container */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    /* Styling for horizontal lines */
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+
+.bottom-line {
+    /* Margin for the bottom line */
+    margin-top: 25px;
+}
+
+/* FONT STYLES */
+
+h1, h2 {
+    /* Font family for h1 and h2 elements */
+    font-family: Impact, serif;
+}
+
+.item p {
+    /* Styling for paragraphs within menu items */
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.flavor, .dessert {
+    /* Text alignment and width for flavor and dessert classes */
+    text-align: left;
+    width: 75%;
+}
+
+.price {
+    /* Text alignment and width for price class */
+    text-align: right;
+    width: 25%;
+}
+
+/* FOOTER STYLES */
+
+footer {
+    /* Font size for the footer */
+    font-size: 14px;
+}
+
+.address {
+    /* Margin for the address in the footer */
+    margin-bottom: 5px;
+}
+
+/* LINK STYLES */
+
+a {
+    /* Default color for links */
+    color: black;
+}
+
+a:visited {
+    /* Color for visited links */
+    color: black;
+}
+
+a:hover {
+    /* Color for links on hover */
+    color: brown;
+}
+
+a:active {
+    /* Color for active links */
+    color: brown;
+}
